@@ -1185,7 +1185,8 @@
       layout();
     }, { passive: true });
 
-    if (document.fonts && document.fonts.ready) {
+    var hasKinetic = acts.some(function (a) { return a.cues.some(function (q) { return q.kinetic; }); });
+    if (hasKinetic && document.fonts && document.fonts.ready) {
       // Line splitting measures line boxes, so it has to wait for the real face.
       document.fonts.ready.then(function () {
         acts.forEach(function (a) { a.cues.forEach(function (q) { if (q.kinetic && q.units) { q.el.__scSplit = null; q.units = null; } }); });
@@ -1195,7 +1196,7 @@
 
     layout();
     initPointer();
-    requestAnimationFrame(tick);
+    if (playheads.length) requestAnimationFrame(tick);
     document.documentElement.classList.add('sc-ready');
 
     var api = { layout: layout, read: read, acts: acts, worlds: worlds, clips: playheads, lerp: LERP };

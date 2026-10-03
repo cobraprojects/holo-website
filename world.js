@@ -4,7 +4,7 @@ import { RoomEnvironment } from "three/addons/environments/RoomEnvironment.js";
 
 // A locally modeled Holo H. One scene and one object travel through the first
 // three story beats; there are no model swaps, remote textures, or asset calls.
-export function createHoloWorld(host) {
+export async function createHoloWorld(host) {
   let renderer;
   try {
     renderer = new THREE.WebGLRenderer({
@@ -25,6 +25,18 @@ export function createHoloWorld(host) {
   camera.position.set(0, 0, 10);
   const environment = new THREE.PMREMGenerator(renderer);
   const room = new RoomEnvironment();
+  // Prepare the room's shaders in the same linear target used by PMREM,
+  // allowing parallel compilation instead of blocking its first render.
+  const preparationTarget = new THREE.WebGLRenderTarget(1, 1, {
+    type: THREE.HalfFloatType,
+    colorSpace: THREE.LinearSRGBColorSpace,
+  });
+  renderer.setRenderTarget(preparationTarget);
+  renderer.toneMapping = THREE.NoToneMapping;
+  await renderer.compileAsync(room, camera);
+  renderer.setRenderTarget(null);
+  renderer.toneMapping = THREE.ACESFilmicToneMapping;
+  preparationTarget.dispose();
   const environmentMap = environment.fromScene(room, 0.04);
   scene.environment = environmentMap.texture;
   room.dispose();
@@ -193,6 +205,7 @@ export function createHoloWorld(host) {
     camera.updateProjectionMatrix();
   }
   resize();
+  await renderer.compileAsync(scene, camera);
   function render(pose) {
     host.style.clipPath = pose.clipTop === undefined
       ? "none"

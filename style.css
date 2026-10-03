@@ -13,6 +13,10 @@
 * {
   box-sizing: border-box;
 }
+/* Reserve the pinned tracks before the scroll runtime initializes. */
+.assembly-act { height: 220vh; }
+.workflow-act { height: 265vh; }
+.modules-act { height: 250vh; }
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 76px;

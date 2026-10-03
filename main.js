@@ -1,5 +1,5 @@
+import "./engine/scrollcraft.js";
 import { initModuleTour } from "./module-tour.js";
-document.documentElement.classList.add("js");
 const examples = {
   next: {
     name: "Next.js",
@@ -635,8 +635,8 @@ let worldLoading;
 function loadWorld() {
   if (worldLoading) return;
   worldLoading = import("./world.js")
-    .then(({ createHoloWorld }) => {
-      holoWorld = createHoloWorld(document.querySelector("#holo-world"));
+    .then(async ({ createHoloWorld }) => {
+      holoWorld = await createHoloWorld(document.querySelector("#holo-world"));
       if (!holoWorld) return;
       document.documentElement.classList.add("has-webgl");
       window.addEventListener("resize", () => {
