@@ -1,3 +1,5 @@
+import { createTextureCanvas } from "./texture-canvas.js";
+
 // Locally authored solid models. Every form shares the Holo hardware palette.
 export function createModuleSculptures(THREE) {
   const root = new THREE.Group();
@@ -118,9 +120,7 @@ export function createModuleSculptures(THREE) {
     ),
   );
   function inscription(text, width, height, color = "#364731") {
-    const canvas = document.createElement("canvas");
-    canvas.width = text.length === 1 ? 96 : 384;
-    canvas.height = 96;
+    const canvas = createTextureCanvas(text.length === 1 ? 96 : 384, 96);
     const context = canvas.getContext("2d");
     context.fillStyle = color;
     context.font = `${text.length === 1 ? 80 : 42}px Arial`;

@@ -478,6 +478,7 @@ function renderScroll() {
     if (scrollY >= whyCenter && scrollY <= whyExit)
       pose.y = (slotCenter - scrollY) / innerHeight;
     const tourRect = tour.getBoundingClientRect();
+    if (tourRect.top < innerHeight * 3 && tourRect.bottom > 0) holoWorld.prepareModules();
     const startRect = startSection.getBoundingClientRect();
     if (startRect.top < innerHeight && startRect.bottom > 0) {
       const box = startModel.getBoundingClientRect();
@@ -638,7 +639,7 @@ function loadWorld() {
     .then(async ({ createHoloWorld }) => {
       holoWorld = await createHoloWorld(document.querySelector("#holo-world"));
       if (!holoWorld) return;
-      document.documentElement.classList.add("has-webgl");
+      holoWorld.resize();
       window.addEventListener("resize", () => {
         holoWorld.resize();
         scheduleScroll();
