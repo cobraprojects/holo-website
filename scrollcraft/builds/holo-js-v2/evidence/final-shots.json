@@ -1,0 +1,288 @@
+[
+  {
+    "size": "desktop",
+    "act": "frameworks",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4o872-0921e064.png"
+  },
+  {
+    "size": "desktop",
+    "act": "modules",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4o8ht-7574ec3e.png"
+  },
+  {
+    "size": "desktop",
+    "act": "modules",
+    "p": 0.2,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4o8t3-8e503d7f.png"
+  },
+  {
+    "size": "desktop",
+    "act": "modules",
+    "p": 0.4,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4o94e-0f2bbf28.png"
+  },
+  {
+    "size": "desktop",
+    "act": "modules",
+    "p": 0.6,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4o9g4-8c91bbfd.png"
+  },
+  {
+    "size": "desktop",
+    "act": "modules",
+    "p": 0.8,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4o9r3-b8561250.png"
+  },
+  {
+    "size": "desktop",
+    "act": "modules",
+    "p": 1,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4oa1z-28642ec1.png"
+  },
+  {
+    "size": "desktop",
+    "act": "compare",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4oact-4eb81244.png"
+  },
+  {
+    "size": "desktop",
+    "act": "start",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4oanj-59e2552a.png"
+  },
+  {
+    "size": "mobile",
+    "act": "frameworks",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4oep0-0185104a.png"
+  },
+  {
+    "size": "mobile",
+    "act": "modules",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4oeyp-0d2e5c2b.png"
+  },
+  {
+    "size": "mobile",
+    "act": "modules",
+    "p": 0.2,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4of8j-68f5ac93.png"
+  },
+  {
+    "size": "mobile",
+    "act": "modules",
+    "p": 0.4,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4ofia-73cfa671.png"
+  },
+  {
+    "size": "mobile",
+    "act": "modules",
+    "p": 0.6,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4ofrw-94680aea.png"
+  },
+  {
+    "size": "mobile",
+    "act": "modules",
+    "p": 0.8,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4og29-aadfd129.png"
+  },
+  {
+    "size": "mobile",
+    "act": "modules",
+    "p": 1,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4oge6-d88cbf79.png"
+  },
+  {
+    "size": "mobile",
+    "act": "compare",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4ogob-0b1db83e.png"
+  },
+  {
+    "size": "mobile",
+    "act": "start",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4ogyr-d3ede8af.png"
+  },
+  {
+    "size": "desktop",
+    "act": "assembly",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vl2x-4516a9d9.png"
+  },
+  {
+    "size": "desktop",
+    "act": "assembly",
+    "p": 0.2,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vll9-ecc67898.png"
+  },
+  {
+    "size": "desktop",
+    "act": "assembly",
+    "p": 0.4,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vm34-5e70c434.png"
+  },
+  {
+    "size": "desktop",
+    "act": "assembly",
+    "p": 0.6,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vmks-4505f9da.png"
+  },
+  {
+    "size": "desktop",
+    "act": "assembly",
+    "p": 0.8,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vn2x-d2d4479b.png"
+  },
+  {
+    "size": "desktop",
+    "act": "assembly",
+    "p": 1,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vnka-305e8250.png"
+  },
+  {
+    "size": "desktop",
+    "act": "why",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus53svx-65bbbb35.png",
+    "scrollOffset": 0
+  },
+  {
+    "size": "desktop",
+    "act": "why",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus53tdm-875a60e8.png",
+    "scrollOffset": 200
+  },
+  {
+    "size": "desktop",
+    "act": "workflow",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vp1n-decec9f9.png"
+  },
+  {
+    "size": "desktop",
+    "act": "workflow",
+    "p": 0.2,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vpjo-4c94f9c2.png"
+  },
+  {
+    "size": "desktop",
+    "act": "workflow",
+    "p": 0.4,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vq1s-ba6c986e.png"
+  },
+  {
+    "size": "desktop",
+    "act": "workflow",
+    "p": 0.6,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vqkq-e3bc04e1.png"
+  },
+  {
+    "size": "desktop",
+    "act": "workflow",
+    "p": 0.8,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vr2x-a25eac48.png"
+  },
+  {
+    "size": "desktop",
+    "act": "workflow",
+    "p": 1,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vrkw-a689f980.png"
+  },
+  {
+    "size": "mobile",
+    "act": "assembly",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vs3k-531364dc.png"
+  },
+  {
+    "size": "mobile",
+    "act": "assembly",
+    "p": 0.2,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vskj-9d4da739.png"
+  },
+  {
+    "size": "mobile",
+    "act": "assembly",
+    "p": 0.4,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vt19-7c7f8326.png"
+  },
+  {
+    "size": "mobile",
+    "act": "assembly",
+    "p": 0.6,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vti5-b6517985.png"
+  },
+  {
+    "size": "mobile",
+    "act": "assembly",
+    "p": 0.8,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vtyz-e0acb572.png"
+  },
+  {
+    "size": "mobile",
+    "act": "assembly",
+    "p": 1,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vufi-97486e8f.png"
+  },
+  {
+    "size": "mobile",
+    "act": "why",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus53twd-8de07743.png",
+    "scrollOffset": 0
+  },
+  {
+    "size": "mobile",
+    "act": "why",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus53udb-1f13033b.png",
+    "scrollOffset": 200
+  },
+  {
+    "size": "mobile",
+    "act": "workflow",
+    "p": 0,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vvu8-8ee0e344.png"
+  },
+  {
+    "size": "mobile",
+    "act": "workflow",
+    "p": 0.2,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vwb7-41aa1817.png"
+  },
+  {
+    "size": "mobile",
+    "act": "workflow",
+    "p": 0.4,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vwrv-5886e271.png"
+  },
+  {
+    "size": "mobile",
+    "act": "workflow",
+    "p": 0.6,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vx8l-1facf4d0.png"
+  },
+  {
+    "size": "mobile",
+    "act": "workflow",
+    "p": 0.8,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vxpp-5be8d3b4.png"
+  },
+  {
+    "size": "mobile",
+    "act": "workflow",
+    "p": 1,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus4vy6v-60558cfe.png"
+  },
+  {
+    "size": "desktop",
+    "act": "handoff",
+    "p": 0.5,
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus52zeb-49df970b.png"
+  }
+]

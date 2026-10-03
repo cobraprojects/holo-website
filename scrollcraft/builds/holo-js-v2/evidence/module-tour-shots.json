@@ -1,0 +1,72 @@
+[
+  {
+    "size": "desktop",
+    "key": "storage",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y16w-80040e31.png"
+  },
+  {
+    "size": "desktop",
+    "key": "database",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y1tx-18024d62.png"
+  },
+  {
+    "size": "desktop",
+    "key": "auth",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y2gf-262cb203.png"
+  },
+  {
+    "size": "desktop",
+    "key": "realtime",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y33i-64803f82.png"
+  },
+  {
+    "size": "desktop",
+    "key": "notifications",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y3qi-28850ceb.png"
+  },
+  {
+    "size": "desktop",
+    "key": "mail",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y4d2-774cde73.png"
+  },
+  {
+    "size": "desktop",
+    "key": "queue",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y50a-baf06c5b.png"
+  },
+  {
+    "size": "mobile",
+    "key": "storage",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y5nu-7eec056a.png"
+  },
+  {
+    "size": "mobile",
+    "key": "database",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y69z-257a08f9.png"
+  },
+  {
+    "size": "mobile",
+    "key": "auth",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y6vz-b608f30b.png"
+  },
+  {
+    "size": "mobile",
+    "key": "realtime",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y7i4-c3d471f0.png"
+  },
+  {
+    "size": "mobile",
+    "key": "notifications",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y84d-971159a7.png"
+  },
+  {
+    "size": "mobile",
+    "key": "mail",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y8ql-b4c23ea2.png"
+  },
+  {
+    "size": "mobile",
+    "key": "queue",
+    "path": "/Users/cobra/.t3/userdata/browser-artifacts/browser-screenshot-localhost-mus5y9ck-0547e5b7.png"
+  }
+]

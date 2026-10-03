@@ -1,0 +1,1203 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+      name="viewport"
+    />
+    <meta content="#141614" name="theme-color" />
+    <meta
+      content="Stop wiring your backend from scratch. Holo-JS brings typed models, auth, jobs, and storage to Next.js, Nuxt, and SvelteKit. Build your backend, your way."
+      name="description"
+    />
+    <title>Holo-JS | Build the product. Skip the plumbing.</title>
+    <link href="/assets/mark.svg" rel="icon" />
+    <link href="/engine/scrollcraft.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div aria-hidden="true" class="holo-world" id="holo-world"></div>
+    <header class="site-nav">
+      <a aria-label="Holo-JS home" class="wordmark" href="#main"
+        ><img alt="" height="32" src="/assets/mark.svg" width="32" />holo<span
+          >-js</span
+        ></a
+      >
+      <nav aria-label="Main navigation">
+        <a href="#why">Why Holo?</a><a href="#capabilities">Explore modules</a
+        ><a href="#modules">Build your stack</a>
+      </nav>
+      <button
+        aria-label="Reduce motion"
+        aria-pressed="false"
+        class="motion-toggle"
+        id="motion-toggle"
+      >
+        Motion <span id="motion-state">on</span>
+      </button>
+      <a class="nav-cta" href="#start"
+        >Get started <span aria-hidden="true">→</span></a
+      >
+    </header>
+    <main id="main">
+      <section
+        aria-labelledby="hero-title"
+        class="assembly-act"
+        data-sc-act="pin"
+        data-sc-span="2.2"
+        id="assembly"
+      >
+        <div
+          class="assembly-stage"
+          data-sc-stage=""
+          data-sc-verify-state="scattered"
+        >
+          <div aria-hidden="true" class="technical-grid"></div>
+          <div class="hero-heading">
+            <p class="eyebrow">
+              THE BACKEND FRAMEWORK FOR NEXT.JS, NUXT &amp; SVELTEKIT
+            </p>
+            <h1 id="hero-title">
+              Build the product.<br /><span>Skip the plumbing.</span>
+            </h1>
+            <p class="hero-description">
+              A complete backend for Next.js, Nuxt, and SvelteKit.<br />Keep
+              your framework. Get your backend together.
+            </p>
+          </div>
+          <div aria-hidden="true" class="resolved-heading">
+            <p class="eyebrow">ONE COHERENT BACKEND LAYER</p>
+            <h2>One runtime.<br /><span>All your pieces.</span></h2>
+            <p>Typed. Modular. Built for the framework you chose.</p>
+          </div>
+          <div
+            aria-label="Independent backend modules assemble into the Holo H mark as you move down the page."
+            class="component-world"
+            role="img"
+          >
+            <div class="world-grid"></div>
+            <div class="world-shadow"></div>
+            <div class="component-plane">
+              <div class="module-block" data-piece="0">
+                <div class="block-top"><span>Auth</span><i>IDENTITY</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="1">
+                <div class="block-top"><span>Models</span><i>DATA</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="2">
+                <div class="block-top"><span>Sessions</span><i>CONTEXT</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="3">
+                <div class="block-top"><span>Events</span><i>REACTIONS</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="4">
+                <div class="block-top"><span>Queue</span><i>BACKGROUND</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="5">
+                <div class="block-top"><span>Storage</span><i>FILES</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="6">
+                <div class="block-top"><span>Cache</span><i>FAST PATH</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="7">
+                <div class="block-top">
+                  <span>Policies</span><i>PERMISSIONS</i>
+                </div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="8">
+                <div class="block-top"><span>Mail</span><i>DELIVERY</i></div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="9">
+                <div class="block-top">
+                  <span>Validation</span><i>CONTRACTS</i>
+                </div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="10">
+                <div class="block-top">
+                  <span>Realtime</span><i>LIVE STATE</i>
+                </div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+              <div class="module-block" data-piece="11">
+                <div class="block-top">
+                  <span>Notifications</span><i>CHANNELS</i>
+                </div>
+                <div class="block-front"></div>
+                <div class="block-side"></div>
+              </div>
+            </div>
+            <div class="assembly-caption">
+              <span class="caption-rule"></span
+              ><span id="assembly-caption"
+                >The pieces are familiar. The wiring is your problem.</span
+              ><span class="caption-rule"></span>
+            </div>
+          </div>
+          <div class="hero-bottom">
+            <a class="button primary" href="#start"
+              >Get started <span aria-hidden="true">→</span></a
+            ><a class="text-link" href="https://docs.holo-js.com/"
+              >Read the docs <span aria-hidden="true">→</span></a
+            ><span class="hero-license">OPEN SOURCE · MIT LICENSED</span>
+          </div>
+        </div>
+      </section>
+      <section class="diagnosis light-section" data-sc-act="flow" id="why" aria-labelledby="fit-title">
+        <div class="wrap diagnosis-visual">
+          <div class="diagnosis-message">
+            <p class="section-label">A BACKEND THAT FITS YOUR STACK</p>
+            <h2 id="fit-title">Keep your framework.<br /><em>Unlock a full backend.</em></h2>
+            <p>Models, auth, jobs, and files. Connected inside the app you already know how to build.</p>
+            <div class="framework-choice" role="group" aria-label="Choose your application framework">
+              <button type="button" data-fit-framework="next" aria-pressed="true"><img src="/assets/next.svg" width="34" height="34" alt="" /><span>Next.js</span></button>
+              <button type="button" data-fit-framework="nuxt" aria-pressed="false"><img src="/assets/nuxt.svg" width="40" height="34" alt="" /><span>Nuxt</span></button>
+              <button type="button" data-fit-framework="svelte" aria-pressed="false"><img src="/assets/svelte.svg" width="30" height="34" alt="" /><span>SvelteKit</span></button>
+            </div>
+            <p class="fit-reassurance">Your routes. Your rendering. Your deployment.</p>
+            <a class="fit-link" href="#frameworks">See it in a real route <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="application-shell" aria-label="Your framework and the Holo backend run inside one application">
+            <div class="app-deck">
+              <div class="app-deck-brand"><img id="fit-logo" src="/assets/next.svg" width="40" height="40" alt="" /><div><span>YOUR APPLICATION</span><strong id="fit-name">Next.js</strong></div><span class="app-deck-status">WEB LAYER</span></div>
+              <div class="app-deck-capabilities"><span>Routes</span><span>Rendering</span><span>Deployment</span></div>
+            </div>
+            <div class="runtime-connection" aria-hidden="true"><span></span><span></span></div>
+            <div class="shell-brackets"><div class="shell-fallback" aria-hidden="true"></div></div>
+            <div class="runtime-label"><span class="runtime-dot" aria-hidden="true"></span>HOLO BACKEND <span>INSIDE YOUR APP</span></div>
+            <div class="backend-deck"><span>Typed models</span><span>Authentication</span><span>Background jobs</span><span>File storage</span></div>
+            <div class="fit-caption"><span>ONE APPLICATION</span><span>Frontend freedom. Backend structure.</span></div>
+          </div>
+        </div>
+      </section>
+      <section
+        aria-labelledby="workflow-title"
+        class="workflow-act"
+        data-sc-act="pin"
+        data-sc-span="2.65"
+        id="workflow"
+      >
+        <div
+          class="workflow-stage"
+          data-sc-stage=""
+          data-sc-verify-state="identity"
+        >
+          <div class="wrap workflow-inner">
+            <div class="workflow-heading">
+              <div>
+                <h2 id="workflow-title">
+                  One click.<br /><span>A connected backend.</span>
+                </h2>
+              </div>
+              <p>From permission to persistence to background work.</p>
+            </div>
+            <div class="workflow-body">
+              <div aria-hidden="true" class="workflow-visual">
+                <div class="workflow-object-fallback"></div>
+              </div>
+              <div class="workflow-controls">
+                <div
+                  aria-label="Publishing workflow stages"
+                  class="workflow-map"
+                >
+                  <div class="workflow-connection">
+                    <div class="workflow-signal"></div>
+                  </div>
+                  <button
+                    aria-pressed="true"
+                    class="workflow-node active"
+                    data-step="0"
+                  >
+                    <span class="node-icon"
+                      ><img
+                        alt=""
+                        height="440"
+                        src="/assets/identity.svg"
+                        width="700" /></span
+                    ><strong>Authorize</strong
+                    ><small>Who can publish?</small></button
+                  ><button
+                    aria-pressed="false"
+                    class="workflow-node"
+                    data-step="1"
+                  >
+                    <span class="node-icon"
+                      ><img
+                        alt=""
+                        height="440"
+                        src="/assets/data.svg"
+                        width="700" /></span
+                    ><strong>Persist</strong
+                    ><small>Store the decision.</small></button
+                  ><button
+                    aria-pressed="false"
+                    class="workflow-node"
+                    data-step="2"
+                  >
+                    <span class="node-icon"
+                      ><img
+                        alt=""
+                        height="440"
+                        src="/assets/queue.svg"
+                        width="700" /></span
+                    ><strong>Dispatch</strong
+                    ><small>Move work off the request.</small></button
+                  ><button
+                    aria-pressed="false"
+                    class="workflow-node"
+                    data-step="3"
+                  >
+                    <span class="node-icon"
+                      ><img
+                        alt=""
+                        height="440"
+                        src="/assets/delivery.svg"
+                        width="700" /></span
+                    ><strong>Deliver</strong><small>Run it in a worker.</small>
+                  </button>
+                </div>
+                <div class="workflow-detail">
+                  <div class="workflow-reason">
+                    <span class="detail-tag" id="detail-tag"
+                      >AUTHORIZATION</span
+                    >
+                    <h3 id="detail-title">
+                      Permissions belong<br />to your domain.
+                    </h3>
+                    <p class="optional-explanation" id="detail-description">
+                      Define an ability once. Reuse the same decision in routes,
+                      jobs, and services.
+                    </p>
+                    <a
+                      class="text-link"
+                      href="https://docs.holo-js.com/authorization/abilities"
+                      id="detail-link"
+                      >Explore authorization
+                      <span aria-hidden="true">→</span></a
+                    >
+                  </div>
+                  <details class="workflow-code-disclosure">
+                    <summary>Inspect the real API</summary>
+                    <div class="source-panel">
+                      <div class="source-header">
+                        <span class="file-icon">TS</span
+                        ><span id="workflow-file"
+                          >server/abilities/publish-post.ts</span
+                        ><span class="source-label">DOCUMENTED API</span>
+                      </div>
+                      <pre><code id="workflow-code">import { defineAbility, allow, deny }
+  from '@holo-js/authorization'
+
+export default defineAbility('posts.publish',
+  context =&gt; context.user?.role === 'editor'
+    ? allow()
+    : deny('Editor access required.')
+)</code></pre>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </div>
+
+            <div class="workflow-footer">
+              <span
+                ><i class="status-dot"></i> YOUR LOGIC, CONNECTED BY
+                CONVENTION.</span
+              ><span>Illustration, not a running backend.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        class="framework-section wrap"
+        data-sc-act="flow"
+        id="frameworks"
+      >
+        <div class="framework-intro" data-sc-in="">
+          <h2>
+            A backend decision.<br /><span>Not a frontend migration.</span>
+          </h2>
+          <p>Same backend conventions. The route syntax you already know.</p>
+        </div>
+        <div
+          class="framework-workbench"
+          data-sc-reveal="left"
+          data-sc-reveal-at="0.05 0.36"
+        >
+          <div class="framework-side">
+            <div
+              aria-label="Framework code"
+              class="framework-tabs"
+              role="tablist"
+            >
+              <button
+                aria-controls="route-panel"
+                aria-selected="true"
+                data-framework="next"
+                id="tab-next"
+                role="tab"
+              >
+                <b>N</b
+                ><span
+                  >Next.js<small>App Router &amp; server actions</small></span
+                ><i aria-hidden="true">→</i></button
+              ><button
+                aria-controls="route-panel"
+                aria-selected="false"
+                data-framework="nuxt"
+                id="tab-nuxt"
+                role="tab"
+                tabindex="-1"
+              >
+                <b>△</b><span>Nuxt<small>Nitro &amp; server routes</small></span
+                ><i aria-hidden="true">→</i></button
+              ><button
+                aria-controls="route-panel"
+                aria-selected="false"
+                data-framework="svelte"
+                id="tab-svelte"
+                role="tab"
+                tabindex="-1"
+              >
+                <b>S</b
+                ><span
+                  >SvelteKit<small>Endpoints &amp; form actions</small></span
+                ><i aria-hidden="true">→</i>
+              </button>
+            </div>
+            <a class="shared-model" href="https://docs.holo-js.com/orm/"
+              ><img alt="" height="27" src="/assets/mark.svg" width="27" /><span
+                >Same model.<br /><strong
+                  >Same backend conventions.</strong
+                ></span
+              ><span aria-hidden="true">→</span></a
+            >
+          </div>
+          <div
+            aria-labelledby="tab-next"
+            class="source-panel"
+            id="route-panel"
+            role="tabpanel"
+          >
+            <div class="source-header">
+              <span class="file-icon">TS</span
+              ><span id="route-path">app/api/posts/route.ts</span
+              ><button
+                aria-label="Copy route example"
+                class="icon-button"
+                id="copy-code"
+              >
+                ⧉
+              </button>
+            </div>
+            <pre><code id="route-code">import Post from '@/server/models/Post'
+
+export async function GET() {
+  const posts = await Post
+    .where('status', 'published')
+    .latest()
+    .paginate(15)
+
+  return Response.json(posts)
+}</code></pre>
+            <div class="source-foot">
+              Your route. Your rendering. Holo underneath.
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        aria-labelledby="capabilities-title"
+        class="module-tour"
+        data-active="storage"
+        data-sc-act="flow"
+        id="capabilities"
+      >
+        <div class="wrap">
+          <div class="module-tour-heading">
+            <h2 id="capabilities-title">
+              Your code stays.<br /><span>Your infrastructure can change.</span>
+            </h2>
+            <p>
+              One contract. Different drivers.<br />Explore what each module
+              does.
+            </p>
+          </div>
+          <div
+            aria-label="Explore Holo modules"
+            class="capability-tabs"
+            role="tablist"
+          >
+            <button
+              aria-controls="capability-storage"
+              aria-selected="true"
+              data-capability="storage"
+              id="capability-tab-storage"
+              role="tab"
+              tabindex="0"
+            >
+              Storage</button
+            ><button
+              aria-controls="capability-database"
+              aria-selected="false"
+              data-capability="database"
+              id="capability-tab-database"
+              role="tab"
+              tabindex="-1"
+            >
+              Database</button
+            ><button
+              aria-controls="capability-auth"
+              aria-selected="false"
+              data-capability="auth"
+              id="capability-tab-auth"
+              role="tab"
+              tabindex="-1"
+            >
+              Authentication</button
+            ><button
+              aria-controls="capability-realtime"
+              aria-selected="false"
+              data-capability="realtime"
+              id="capability-tab-realtime"
+              role="tab"
+              tabindex="-1"
+            >
+              Realtime</button
+            ><button
+              aria-controls="capability-notifications"
+              aria-selected="false"
+              data-capability="notifications"
+              id="capability-tab-notifications"
+              role="tab"
+              tabindex="-1"
+            >
+              Notifications</button
+            ><button
+              aria-controls="capability-mail"
+              aria-selected="false"
+              data-capability="mail"
+              id="capability-tab-mail"
+              role="tab"
+              tabindex="-1"
+            >
+              Mail</button
+            ><button
+              aria-controls="capability-queue"
+              aria-selected="false"
+              data-capability="queue"
+              id="capability-tab-queue"
+              role="tab"
+              tabindex="-1"
+            >
+              Queues
+            </button>
+          </div>
+          <div class="module-tour-body">
+            <div aria-hidden="true" class="module-sculpture">
+              <div class="sculpture-grid"></div>
+              <img
+                alt=""
+                class="sculpture-fallback"
+                height="440"
+                src="/assets/storage.svg"
+                width="700"
+              />
+              <div class="sculpture-caption">
+                <img
+                  alt=""
+                  height="23"
+                  src="/assets/mark.svg"
+                  width="23"
+                /><span>ONE SYSTEM. MANY CAPABILITIES.</span>
+              </div>
+            </div>
+            <div class="module-tour-content">
+              <article
+                aria-labelledby="capability-tab-storage"
+                class="module-tour-panel"
+                id="capability-storage"
+                role="tabpanel"
+              >
+                <span class="capability-package">@holo-js/storage</span>
+                <h3>Different disks. Same file API.</h3>
+                <p class="capability-description">
+                  Store files locally, serve public uploads, or use
+                  S3-compatible storage through the same API. Your media library
+                  builds on these disks with model collections and conversions.
+                </p>
+                <div
+                  aria-label="Storage driver"
+                  class="driver-switch"
+                  role="group"
+                >
+                  <button
+                    aria-pressed="true"
+                    data-driver="local"
+                    data-driver-for="storage"
+                  >
+                    Local</button
+                  ><button
+                    aria-pressed="false"
+                    data-driver="public"
+                    data-driver-for="storage"
+                  >
+                    Public</button
+                  ><button
+                    aria-pressed="false"
+                    data-driver="s3"
+                    data-driver-for="storage"
+                  >
+                    S3 compatible
+                  </button>
+                </div>
+                <div class="driver-config">
+                  <span>CONFIG CHANGES</span
+                  ><code id="driver-storage">defaultDisk: 'local'</code>
+                </div>
+                <div class="capability-code">
+                  <span>SAME APPLICATION CODE</span>
+                  <pre><code>await Storage.put('avatars/ava.png', file)
+const avatar = await Storage.get('avatars/ava.png')</code></pre>
+                </div>
+                <div class="capability-example">
+                  <span>INTERACTIVE ILLUSTRATION</span>
+                  <p id="example-storage" role="status">
+                    avatar.png → public disk
+                  </p>
+                  <button data-example="storage">
+                    Try a file upload<span aria-hidden="true">→</span>
+                  </button>
+                </div>
+                <p class="capability-note">
+                  Storage uses the configured default disk. S3 credentials and
+                  disk configuration belong in your environment.
+                </p>
+                <a class="text-link" href="https://docs.holo-js.com/storage"
+                  >Explore storage →</a
+                ><a
+                  class="text-link media-link"
+                  href="https://docs.holo-js.com/media"
+                  >Explore the media library →</a
+                >
+              </article>
+              <article
+                aria-labelledby="capability-tab-database"
+                class="module-tour-panel"
+                hidden=""
+                id="capability-database"
+                role="tabpanel"
+              >
+                <span class="capability-package">@holo-js/db</span>
+                <h3>New database. Same domain.</h3>
+                <p class="capability-description">
+                  Start with SQLite, move to PostgreSQL or MySQL. Keep your
+                  model calls and portable schema migrations while the
+                  configured connection changes.
+                </p>
+                <div
+                  aria-label="Database driver"
+                  class="driver-switch"
+                  role="group"
+                >
+                  <button
+                    aria-pressed="true"
+                    data-driver="sqlite"
+                    data-driver-for="database"
+                  >
+                    SQLite</button
+                  ><button
+                    aria-pressed="false"
+                    data-driver="postgres"
+                    data-driver-for="database"
+                  >
+                    PostgreSQL</button
+                  ><button
+                    aria-pressed="false"
+                    data-driver="mysql"
+                    data-driver-for="database"
+                  >
+                    MySQL
+                  </button>
+                </div>
+                <div class="driver-config">
+                  <span>CONFIG CHANGES</span
+                  ><code id="driver-database">driver: 'sqlite'</code>
+                </div>
+                <div class="capability-code">
+                  <span>SAME MIGRATION</span>
+                  <pre><code>await schema.createTable('posts', table =&gt; {
+  table.id()
+  table.string('title')
+  table.timestamps()
+})</code></pre>
+                </div>
+                <div class="capability-example">
+                  <span>INTERACTIVE ILLUSTRATION</span>
+                  <p id="example-database" role="status">
+                    Portable schema → configured database
+                  </p>
+                </div>
+                <p class="capability-note">
+                  Install the chosen driver and configure its connection.
+                  Existing data must be migrated separately; database-specific
+                  SQL is not portable.
+                </p>
+                <a
+                  class="text-link"
+                  href="https://docs.holo-js.com/database/migrations"
+                  >Explore database →</a
+                >
+              </article>
+              <article
+                aria-labelledby="capability-tab-auth"
+                class="module-tour-panel"
+                hidden=""
+                id="capability-auth"
+                role="tabpanel"
+              >
+                <span class="capability-package">@holo-js/auth</span>
+                <h3>One auth layer. Your choice.</h3>
+                <p class="capability-description">
+                  Local login, sessions and API tokens, plus Clerk and WorkOS.
+                  Hosted providers sync into your local user model and create a
+                  normal Holo session.
+                </p>
+                <div
+                  aria-label="Authentication provider"
+                  class="driver-switch"
+                  role="group"
+                >
+                  <button aria-pressed="true" data-auth-provider="0">
+                    Local + tokens</button
+                  ><button aria-pressed="false" data-auth-provider="1">
+                    Clerk</button
+                  ><button aria-pressed="false" data-auth-provider="2">
+                    WorkOS
+                  </button>
+                </div>
+                <div class="capability-code">
+                  <span>API AT A GLANCE</span>
+                  <pre><code>import { user } from '@holo-js/auth'
+
+const currentUser = await user()</code></pre>
+                </div>
+                <div class="capability-example">
+                  <span>INTERACTIVE ILLUSTRATION</span>
+                  <p id="example-auth" role="status">
+                    Your sign-in → local user → Holo session
+                  </p>
+                </div>
+                <p class="capability-note">
+                  Keep identity choice inside one authentication module.
+                </p>
+                <a class="text-link" href="https://docs.holo-js.com/auth/"
+                  >Explore authentication →</a
+                >
+              </article>
+              <article
+                aria-labelledby="capability-tab-realtime"
+                class="module-tour-panel"
+                hidden=""
+                id="capability-realtime"
+                role="tabpanel"
+              >
+                <span class="capability-package">@holo-js/realtime</span>
+                <h3>Change data. Update the screen.</h3>
+                <p class="capability-description">
+                  Define typed server queries and mutations. When matching Holo
+                  database writes commit, live query results refresh in
+                  connected browsers.
+                </p>
+                <div class="capability-code">
+                  <span>API AT A GLANCE</span>
+                  <pre><code>query(...)   // read typed data
+mutation(...) // write typed data</code></pre>
+                </div>
+                <div
+                  aria-label="Two connected browsers"
+                  class="realtime-clients"
+                >
+                  <div>
+                    <span>BROWSER A</span
+                    ><strong data-live-status="">Draft</strong>
+                  </div>
+                  <div>
+                    <span>BROWSER B</span
+                    ><strong data-live-status="">Draft</strong>
+                  </div>
+                </div>
+                <div class="capability-example">
+                  <span>INTERACTIVE ILLUSTRATION</span>
+                  <p id="example-realtime" role="status">
+                    Draft → query result
+                  </p>
+                  <button data-example="realtime">
+                    Publish an update<span aria-hidden="true">→</span>
+                  </button>
+                </div>
+                <p class="capability-note">
+                  Run the broadcast WebSocket worker to deliver live browser
+                  updates.
+                </p>
+                <a class="text-link" href="https://docs.holo-js.com/realtime/"
+                  >Explore realtime →</a
+                >
+              </article>
+              <article
+                aria-labelledby="capability-tab-notifications"
+                class="module-tour-panel"
+                hidden=""
+                id="capability-notifications"
+                role="tabpanel"
+              >
+                <span class="capability-package">@holo-js/notifications</span>
+                <h3>One event. Every channel.</h3>
+                <p class="capability-description">
+                  Define a notification once, then deliver it through email,
+                  database and broadcast channels. Queue or delay delivery when
+                  your product needs it.
+                </p>
+                <div class="capability-code">
+                  <span>API AT A GLANCE</span>
+                  <pre><code>defineNotification({
+  via: () =&gt; ['email', 'database', 'broadcast'],
+  // channel-specific builders
+})</code></pre>
+                </div>
+                <div
+                  aria-label="Notification delivery channels"
+                  class="notification-channels"
+                >
+                  <span>Email</span><span>Database</span><span>Broadcast</span>
+                </div>
+                <div class="capability-example">
+                  <span>INTERACTIVE ILLUSTRATION</span>
+                  <p id="example-notifications" role="status">
+                    Invoice paid → one notification
+                  </p>
+                  <button data-example="notifications">
+                    Show the delivery paths<span aria-hidden="true">→</span>
+                  </button>
+                </div>
+                <p class="capability-note">
+                  Email uses the mail sender. Live broadcast uses the configured
+                  transport.
+                </p>
+                <a
+                  class="text-link"
+                  href="https://docs.holo-js.com/notifications/"
+                  >Explore notifications →</a
+                >
+              </article>
+              <article
+                aria-labelledby="capability-tab-mail"
+                class="module-tour-panel"
+                hidden=""
+                id="capability-mail"
+                role="tabpanel"
+              >
+                <span class="capability-package">@holo-js/mail</span>
+                <h3>Email belongs in your app.</h3>
+                <p class="capability-description">
+                  Define a typed email, preview it in the browser, and send it
+                  through a configured driver. Add Markdown, attachments or
+                  queued delivery.
+                </p>
+                <div class="capability-code">
+                  <span>API AT A GLANCE</span>
+                  <pre><code>await sendMail(welcomeMail({
+  to: 'ava@example.com', name: 'Ava',
+})).using('preview')</code></pre>
+                </div>
+                <div class="capability-example">
+                  <span>INTERACTIVE ILLUSTRATION</span>
+                  <p id="example-mail" role="status">
+                    Welcome, Ava. Your account is ready.
+                  </p>
+                  <button data-example="mail">
+                    Preview the message<span aria-hidden="true">→</span>
+                  </button>
+                </div>
+                <div class="mail-preview" hidden="">
+                  <span>TO ava@example.com</span>
+                  <h4>Welcome, Ava.</h4>
+                  <p>Your account is ready.</p>
+                  <span class="mail-preview-action">Open your dashboard →</span>
+                </div>
+                <p class="capability-note">
+                  Preview, log and SMTP drivers share the mail delivery
+                  contract.
+                </p>
+                <a class="text-link" href="https://docs.holo-js.com/mail/"
+                  >Explore mail →</a
+                >
+              </article>
+              <article
+                aria-labelledby="capability-tab-queue"
+                class="module-tour-panel"
+                hidden=""
+                id="capability-queue"
+                role="tabpanel"
+              >
+                <span class="capability-package">@holo-js/queue</span>
+                <h3>Change the engine. Keep the job.</h3>
+                <p class="capability-description">
+                  Write a typed job once. Run it inline with sync, or dispatch
+                  it through database and Redis connections. Attempts, backoff
+                  and failed jobs stay explicit.
+                </p>
+                <div
+                  aria-label="Queues driver"
+                  class="driver-switch"
+                  role="group"
+                >
+                  <button
+                    aria-pressed="true"
+                    data-driver="sync"
+                    data-driver-for="queue"
+                  >
+                    Sync</button
+                  ><button
+                    aria-pressed="false"
+                    data-driver="database"
+                    data-driver-for="queue"
+                  >
+                    Database</button
+                  ><button
+                    aria-pressed="false"
+                    data-driver="redis"
+                    data-driver-for="queue"
+                  >
+                    Redis
+                  </button>
+                </div>
+                <div class="driver-config">
+                  <span>CONFIG CHANGES</span
+                  ><code id="driver-queue">default: 'sync'</code>
+                </div>
+                <div class="capability-code">
+                  <span>SAME APPLICATION CODE</span>
+                  <pre><code>await GenerateReport.dispatch({ reportId })</code></pre>
+                </div>
+                <div aria-label="Job lifecycle" class="queue-phases">
+                  <span>Queued</span><span>Processing</span
+                  ><span>Complete</span>
+                </div>
+                <div class="capability-example">
+                  <span>INTERACTIVE ILLUSTRATION</span>
+                  <p id="example-queue" role="status">
+                    Report requested → queued
+                  </p>
+                  <button data-example="queue">
+                    Advance the job<span aria-hidden="true">→</span>
+                  </button>
+                </div>
+                <p class="capability-note">
+                  Sync runs inline. Database and Redis need workers; database
+                  queues also need their queue-table migration.
+                </p>
+                <a class="text-link" href="https://docs.holo-js.com/queue/"
+                  >Explore queues →</a
+                >
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section
+        aria-labelledby="modules-title"
+        class="modules-act"
+        data-sc-act="pan"
+        data-sc-span="2.5"
+        id="modules"
+      >
+        <div class="modules-stage" data-sc-stage="">
+          <div class="modules-rail" data-sc-pan="0">
+            <div class="rail-intro">
+              <p class="eyebrow">A TOOLKIT, NOT A TAKEOVER</p>
+              <h2 id="modules-title">
+                A complete backend.<br /><span>Your combination.</span>
+              </h2>
+              <p>Pick your pieces. Your choices become your starter command.</p>
+              <div class="selected-count">
+                <span id="selected-count">3</span> optional modules selected
+              </div>
+              <a class="text-link" href="#start"
+                >See your starter command <span aria-hidden="true">→</span></a
+              >
+            </div>
+            <article class="module-sheet sheet-data">
+              <div class="sheet-header">
+                <span>THE FOUNDATION</span
+                ><svg aria-hidden="true" viewbox="0 0 24 24">
+                  <ellipse cx="12" cy="5" rx="8" ry="3"></ellipse>
+                  <path d="M4 5v14c0 4 16 4 16 0V5M4 12c0 4 16 4 16 0"></path>
+                </svg>
+              </div>
+              <img
+                alt=""
+                class="module-art"
+                height="440"
+                src="/assets/data.svg"
+                width="700"
+              />
+              <h3>Your data, modeled.</h3>
+              <p>Models, migrations, relationships.</p>
+              <div class="drivers">
+                <span>PostgreSQL</span><span>MySQL</span><span>SQLite</span>
+              </div>
+              <a class="text-link" href="https://docs.holo-js.com/orm/"
+                >Explore the ORM <span aria-hidden="true">→</span></a
+              >
+            </article>
+            <article class="module-sheet">
+              <div class="sheet-header">
+                <span>IDENTITY &amp; TRUST</span
+                ><svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path d="M12 3 4 6v6c0 5 8 9 8 9s8-4 8-9V6l-8-3Z"></path>
+                  <path d="m8 12 3 3 5-6"></path>
+                </svg>
+              </div>
+              <img
+                alt=""
+                class="module-art"
+                height="440"
+                src="/assets/identity.svg"
+                width="700"
+              />
+              <h3>Identity, handled.</h3>
+              <p>Auth, sessions, and permissions.</p>
+              <div class="module-options">
+                <button aria-pressed="true" data-module="auth">
+                  <span>Authentication</span><i aria-hidden="true">✓</i></button
+                ><button aria-pressed="false" data-module="authorization">
+                  <span>Authorization</span><i aria-hidden="true">+</i></button
+                ><button aria-pressed="false" data-module="security">
+                  <span>Security</span><i aria-hidden="true">+</i></button
+                ><button aria-pressed="false" data-module="validation">
+                  <span>Validation</span><i aria-hidden="true">+</i>
+                </button>
+              </div>
+              <a class="text-link" href="https://docs.holo-js.com/auth/"
+                >Explore identity <span aria-hidden="true">→</span></a
+              >
+            </article>
+            <article class="module-sheet">
+              <div class="sheet-header">
+                <span>WORK BEYOND THE REQUEST</span
+                ><svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path d="M3 7h18M3 12h13M3 17h8m7-3 3 3-3 3"></path>
+                </svg>
+              </div>
+              <img
+                alt=""
+                class="module-art"
+                height="440"
+                src="/assets/queue.svg"
+                width="700"
+              />
+              <h3>Work, off the request.</h3>
+              <p>Typed jobs. Explicit retries.</p>
+              <div class="module-options">
+                <button aria-pressed="true" data-module="queue">
+                  <span>Queues</span><i aria-hidden="true">✓</i></button
+                ><button aria-pressed="false" data-module="events">
+                  <span>Events</span><i aria-hidden="true">+</i></button
+                ><button aria-pressed="false" data-module="mail">
+                  <span>Mail</span><i aria-hidden="true">+</i></button
+                ><button aria-pressed="false" data-module="notifications">
+                  <span>Notifications</span><i aria-hidden="true">+</i>
+                </button>
+              </div>
+              <a class="text-link" href="https://docs.holo-js.com/queue/"
+                >Explore background work <span aria-hidden="true">→</span></a
+              >
+            </article>
+            <article class="module-sheet">
+              <div class="sheet-header">
+                <span>FILES, SPEED &amp; CONNECTIONS</span
+                ><svg aria-hidden="true" viewbox="0 0 24 24">
+                  <path d="M3 6h7l2 3h9v11H3V6Zm0 6h18"></path>
+                </svg>
+              </div>
+              <img
+                alt=""
+                class="module-art"
+                height="440"
+                src="/assets/storage.svg"
+                width="700"
+              />
+              <h3>Files, wherever you need.</h3>
+              <p>Local and cloud disks. One API.</p>
+              <div class="module-options">
+                <button aria-pressed="true" data-module="storage">
+                  <span>Storage</span><i aria-hidden="true">✓</i></button
+                ><button aria-pressed="false" data-module="cache">
+                  <span>Cache</span><i aria-hidden="true">+</i></button
+                ><button aria-pressed="false" data-module="realtime">
+                  <span>Realtime</span><i aria-hidden="true">+</i></button
+                ><button aria-pressed="false" data-module="forms">
+                  <span>Forms</span><i aria-hidden="true">+</i>
+                </button>
+              </div>
+              <a class="text-link" href="https://docs.holo-js.com/storage"
+                >Explore storage <span aria-hidden="true">→</span></a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="start-section" data-sc-act="flow" id="start">
+        <div class="wrap">
+          <div class="start-layout">
+          <div class="start-copy">
+          <div class="start-header">
+            <h2>Your next app.<br /><span>Ready for more.</span></h2>
+            <p>The stack you chose. One command to start.</p>
+          </div>
+          <div class="starter">
+            <div class="starter-settings">
+              <div>
+                <label for="starter-framework">FRAMEWORK</label
+                ><select id="starter-framework">
+                  <option value="next">Next.js</option>
+                  <option value="nuxt">Nuxt</option>
+                  <option value="svelte">SvelteKit</option>
+                </select>
+              </div>
+              <div>
+                <label for="starter-database">DATABASE</label
+                ><select id="starter-database">
+                  <option value="sqlite">SQLite</option>
+                  <option value="postgres">PostgreSQL</option>
+                  <option value="mysql">MySQL</option>
+                </select>
+              </div>
+              <div
+                aria-label="Package manager"
+                class="package-tabs"
+                role="group"
+              >
+                <button aria-pressed="true" data-pm="npm">npm</button
+                ><button aria-pressed="false" data-pm="pnpm">pnpm</button
+                ><button aria-pressed="false" data-pm="yarn">yarn</button
+                ><button aria-pressed="false" data-pm="bun">bun</button>
+              </div>
+            </div>
+            <div class="starter-selection">
+              <span>YOUR OPTIONAL MODULES</span>
+              <div id="selected-modules">
+                <button aria-label="Remove auth" data-remove="auth">
+                  auth ×</button
+                ><button aria-label="Remove queue" data-remove="queue">
+                  queue ×</button
+                ><button aria-label="Remove storage" data-remove="storage">
+                  storage ×
+                </button>
+              </div>
+            </div>
+            <div class="command-row">
+              <span aria-hidden="true">$</span
+              ><code id="install-command"
+                >npm create holo-js@latest my-app -- --framework next --database
+                sqlite --package auth,queue,storage</code
+              ><button
+                aria-label="Copy starter command"
+                class="icon-button"
+                id="copy-command"
+              >
+                ⧉
+              </button>
+            </div>
+            <div class="starter-foot">
+              <span>Node 22.12+ · MIT licensed</span
+              ><span>Review configuration after scaffolding.</span>
+            </div>
+          </div>
+          <div class="start-actions">
+            <a
+              class="button primary"
+              href="https://docs.holo-js.com/installation"
+              >Get started <span aria-hidden="true">→</span></a
+            ><a
+              class="text-link"
+              href="https://github.com/cobraprojects/holo-js"
+              >Explore the source <span aria-hidden="true">→</span></a
+            >
+          </div>
+          </div>
+          <div class="start-visual">
+            <div class="start-model" aria-hidden="true">
+              <div class="start-model-fallback">
+                <span data-start-modules="auth">AUTH</span>
+                <span data-start-modules="">MODELS</span>
+                <span data-start-modules="security">SECURITY</span>
+                <span data-start-modules="events">EVENTS</span>
+                <span data-start-modules="queue">QUEUE</span>
+                <span data-start-modules="storage">STORAGE</span>
+                <span data-start-modules="cache">CACHE</span>
+                <span data-start-modules="authorization">POLICIES</span>
+                <span data-start-modules="mail">MAIL</span>
+                <span data-start-modules="validation forms">VALIDATE / FORMS</span>
+                <span data-start-modules="realtime">REALTIME</span>
+                <span data-start-modules="notifications">NOTIFY</span>
+              </div>
+            </div>
+            <p class="start-model-caption"><span aria-hidden="true"></span>Orange modules are included in your app.</p>
+          </div>
+          </div>
+          <footer>
+            <a class="wordmark" href="#main"
+              ><img
+                alt=""
+                height="28"
+                src="/assets/mark.svg"
+                width="28"
+              />holo<span>-js</span></a
+            >
+            <p>A backend framework for the way you build.</p>
+            <a href="https://docs.holo-js.com/">Documentation →</a
+            ><a href="https://github.com/cobraprojects/holo-js">GitHub →</a>
+          </footer>
+        </div>
+      </section>
+    </main>
+    <nav aria-label="Page sections" class="journey-dock">
+      <a aria-label="The transformation" class="active" href="#assembly"
+        ><span>Idea</span></a
+      ><a aria-label="Publishing workflow" href="#workflow"><span>Flow</span></a
+      ><a aria-label="Framework compatibility" href="#frameworks"
+        ><span>Framework</span></a
+      ><a aria-label="Choose your modules" href="#modules"
+        ><span>Modules</span></a
+      ><a aria-label="Create your project" href="#start"><span>Build</span></a>
+    </nav>
+    <div aria-live="polite" id="copy-status" role="status"></div>
+    <script src="/engine/scrollcraft.js"></script>
+    <script src="/main.js" type="module"></script>
+  </body>
+</html>
