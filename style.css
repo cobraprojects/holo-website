@@ -2322,20 +2322,21 @@ html[data-motion="reduce"] .hero-heading {
     top: 50%;
     translate: 0 -50%;
   }
+  .component-world,
   html[data-motion="reduce"] .component-world {
-    top: 50%;
+    top: 52%;
     bottom: auto;
     left: 75%;
     width: 46%;
     height: 420px;
     transform: translate(-50%, -50%);
   }
-  html[data-motion="reduce"] .component-plane {
+  .component-plane {
     top: 50%;
   }
 }
 @media (min-width: 761px) and (max-width: 1050px) {
-  html[data-motion="reduce"] .component-plane {
+  .component-plane {
     transform: rotateX(47deg) rotateZ(-27deg) scale(0.65);
   }
 }
